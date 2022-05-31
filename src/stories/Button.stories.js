@@ -8,6 +8,7 @@ export default {
 
 const Template = args => <Button {...args} />
 
+
 export const Red = Template.bind({})
 Red.args = {
   backgroundColor: "red",
@@ -15,12 +16,14 @@ Red.args = {
   size: "md",
 }
 
+
 export const Green = Template.bind({})
 Green.args = {
   backgroundColor: "green",
   label: "Press Me",
   size: "md",
 }
+
 
 export const Small = Template.bind({})
 Small.args = {
@@ -35,6 +38,7 @@ Large.args = {
   label: "Press Me",
   size: "lg",
 }
+
 
 export const LongLabel = Template.bind({})
 LongLabel.args = {
